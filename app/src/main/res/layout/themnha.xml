@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm Nhà Mới"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp"/>
+
+    <EditText
+        android:id="@+id/etDiaChi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Địa chỉ"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etDienTich"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Diện tích"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etHouseType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Loại nhà ở"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/etResident"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Số người ở"/>
+
+    <Button
+        android:id="@+id/btnLuuNha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lưu"
+        android:layout_marginTop="24dp"/>
+
+</LinearLayout>
