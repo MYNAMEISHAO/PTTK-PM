@@ -23,52 +23,65 @@
         </activity>
 
         <activity
-            android:name=".activity.QuanLyKhachActivity"
+            android:name=".activity.quanly.QuanLyKhachActivity"
             android:exported="false">
 
         </activity>
 
         <activity
-            android:name=".activity.KiHopDongActivity"
+            android:name=".activity.kyhopdong.KiHopDongActivity"
             android:exported="false">
 
         </activity>
 
         <activity
-            android:name=".activity.ChiTietKhachActivity"
+            android:name=".activity.kyhopdong.DanhSachNhaDangKiActivity"
             android:exported="false">
 
         </activity>
 
         <activity
-            android:name=".activity.ThemNhaActivity"
+            android:name=".activity.quanly.ChiTietKhachActivity"
             android:exported="false">
 
         </activity>
 
         <activity
-            android:name=".activity.ThemKhachActivity"
+            android:name=".activity.quanly.ThemNhaActivity"
             android:exported="false">
 
         </activity>
 
         <activity
-            android:name=".activity.ChiTietNhaActivity"
+            android:name=".activity.quanly.ThemKhachActivity"
             android:exported="false">
 
         </activity>
 
         <activity
-            android:name=".activity.SuaKhachActivity"
+            android:name=".activity.quanly.ChiTietNhaActivity"
             android:exported="false">
 
         </activity>
 
         <activity
-            android:name=".activity.XoaKhachActivity"
+            android:name=".activity.quanly.SuaKhachActivity"
             android:exported="false">
 
         </activity>
+
+        <activity
+            android:name=".activity.kyhopdong.ChonNhaActivity"
+            android:exported="false">
+
+        </activity>
+
+        <activity
+            android:name=".activity.kyhopdong.ChonDichVuActivity"
+            android:exported="false">
+
+        </activity>
+
     </application>
 
 </manifest>

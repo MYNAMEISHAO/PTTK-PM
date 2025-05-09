@@ -1,6 +1,8 @@
 package com.example.kttkpm.models;
 
-public class Nha {
+import java.io.Serializable;
+
+public class Nha implements Serializable {
     private String id;
     private String address;
     private String houseType;

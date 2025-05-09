@@ -123,5 +123,14 @@ public class NhaDAO{
         });
     };
 
+    public Nha getNhaByID(String nhaID, List<Nha> nhaList) {
+        for (Nha nha : nhaList) {
+            if (nha.getID().equals(nhaID)) {
+                return nha;
+            }
+        }
+        return null;
+    }
+
 
 }

@@ -7,6 +7,8 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.kttkpm.R;
+import com.example.kttkpm.activity.kyhopdong.KiHopDongActivity;
+import com.example.kttkpm.activity.quanly.QuanLyKhachActivity;
 import com.google.android.material.card.MaterialCardView;
 
 public class HomeActivity extends AppCompatActivity {

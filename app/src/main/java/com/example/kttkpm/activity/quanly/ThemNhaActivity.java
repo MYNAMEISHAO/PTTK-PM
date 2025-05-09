@@ -1,4 +1,4 @@
-package com.example.kttkpm.activity;
+package com.example.kttkpm.activity.quanly;
 
 import android.os.Bundle;
 import android.view.View;
@@ -13,7 +13,7 @@ import com.example.kttkpm.DAO.KhachDAO;
 import com.example.kttkpm.DAO.NhaDAO;
 import com.example.kttkpm.R;
 import com.example.kttkpm.models.Nha;
-import com.example.kttkpm.utils.IDGenerate;
+import com.example.kttkpm.helper.IDGenerate;
 
 import java.util.ArrayList;
 import java.util.List;

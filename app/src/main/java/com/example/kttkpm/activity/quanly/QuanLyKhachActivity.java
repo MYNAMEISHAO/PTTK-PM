@@ -1,4 +1,4 @@
-package com.example.kttkpm.activity;
+package com.example.kttkpm.activity.quanly;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,7 +6,6 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -17,9 +16,6 @@ import com.example.kttkpm.OnKhachClickListener;
 import com.example.kttkpm.R;
 import com.example.kttkpm.adapters.KhachAdapter;
 import com.example.kttkpm.models.Khach;
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
-import com.google.firebase.database.ValueEventListener;
 
 
 import java.util.ArrayList;

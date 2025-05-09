@@ -1,4 +1,4 @@
-package com.example.kttkpm.activity;
+package com.example.kttkpm.activity.quanly;
 
 import android.os.Bundle;
 import android.view.View;
@@ -12,7 +12,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.kttkpm.DAO.KhachDAO;
 import com.example.kttkpm.R;
 import com.example.kttkpm.models.Khach;
-import com.example.kttkpm.utils.IDGenerate;
+import com.example.kttkpm.helper.IDGenerate;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,7 +22,6 @@ public class ThemKhachActivity extends AppCompatActivity {
     EditText edtTenKhach, edtEmail, edtSDT;
     Button btnThemKhach, btnTroVe;
     KhachDAO kd;
-
     List<Khach> khachList;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

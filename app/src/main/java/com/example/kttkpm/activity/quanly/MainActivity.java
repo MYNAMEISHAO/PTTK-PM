@@ -1,4 +1,4 @@
-package com.example.kttkpm.activity;
+package com.example.kttkpm.activity.quanly;
 
 import android.os.Bundle;
 

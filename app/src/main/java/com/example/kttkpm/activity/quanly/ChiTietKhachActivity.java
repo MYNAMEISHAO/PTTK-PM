@@ -1,4 +1,4 @@
-package com.example.kttkpm.activity;
+package com.example.kttkpm.activity.quanly;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -20,7 +20,6 @@ import com.example.kttkpm.DAO.NhaDAO;
 import com.example.kttkpm.OnNhaClickListener;
 import com.example.kttkpm.R;
 import com.example.kttkpm.adapters.NhaAdapter;
-import com.example.kttkpm.models.Khach;
 import com.example.kttkpm.models.Nha;
 
 import java.util.ArrayList;

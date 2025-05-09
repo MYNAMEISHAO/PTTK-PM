@@ -7,28 +7,31 @@
     android:orientation="vertical"
     android:padding="16dp">
 
-
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
-        android:text="Danh sách khách hàng"
+        android:text="Danh sách dịch vụ"
         android:textSize="24sp"
         android:textStyle="bold"
         android:gravity="center"/>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recyclerKhach"
+        android:id="@+id/recyclerDichVu"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:layout_marginTop="8dp" />
+        android:layout_marginTop="8dp"
+        android:contentDescription="Danh sách dịch vụ"/>
 
     <Button
-        android:id="@+id/btnTroVe"
+        android:id="@+id/btnReturn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Trở về" />
+        android:text="Quay về"
+        android:textSize="18sp"
+        android:padding="12dp"
+        android:backgroundTint="@android:color/holo_green_dark" />
 
 </LinearLayout>
